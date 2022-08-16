@@ -6,5 +6,12 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const pass = passField.value;
     console.log(email);
     console.log(pass);
+    if (email === 'sontan@baap.com' && pass === 'baap') {
+        window.location.href = 'bank.html';
+    }
+    else {
+        alert('Please enter a valid email address and pass');
+     }
+
 
 })

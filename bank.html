@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Baaper Bank</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-6">Let's gooo <span class="font-semibold text-violet-600">Bapeer
+                MonnnuuY......!!</span>
+        </h1>
+    </header>
+
+    <main>
+        <section class="mt-8">
+            <div class="grid grid-cols-3 gap-4 mx-auto w-9/12">
+                <div class="bg-red-600 text-white py-6 px-12 rounded-xl">
+                    <h4 class="text-lg  font-semibold">Deposit</h4>
+                    <h2 class="text-2xl  font-semibold">$<span id="oldDeposit">00</span></h2>
+                </div>
+                <div class="bg-green-600 text-white py-6 px-12 rounded-xl">
+                    <h4 class="text-lg  font-semibold">withdrow</h4>
+                    <h2 class="text-2xl  font-semibold">$<span>00</span></h2>
+                </div>
+                <div class="bg-yellow-500 text-white py-6 px-12 rounded-xl">
+                    <h4 class="text-lg  font-semibold">Total</h4>
+                    <h2 class="text-2xl  font-semibold">$<span id="total-balance">1240</span></h2>
+                </div>
+
+            </div>
+        </section>
+        <section class="mt-8">
+            <div class="grid grid-cols-2 gap-4 mx-auto w-9/12">
+                <div class="bg-purple-600 py-6 px-12 rounded-xl">
+                    <h4 class="text-lg  font-semibold text-white">Deposit</h4>
+                    <input class="w-9/12 block mb-3 p-2  rounded-md" type="number" name="" id="user-deposit"
+                        placeholder="Your email address">
+                    <button id="btn-deposit"
+                        class="bg-amber-600 hover:bg-sky-700 px-4 py-2 rounded-md text-white">Deposit</button>
+                </div>
+                <div class="bg-blue-600 py-6 px-12 rounded-xl">
+                    <h4 class="text-lg  font-semibold text-white">withdrow</h4>
+                    <input class="w-9/12 block mb-3 p-2  rounded-md" type="number" name="" id="user-withdrow"
+                        placeholder="Your email address">
+                    <button id="btn-submit"
+                        class="bg-amber-600 hover:bg-sky-700 px-4 py-2 rounded-md text-white">withdrow</button>
+                </div>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="js/deposit.js"></script>
+    <script src="js/withdrow.js"></script>
+</body>
+
+</html>
